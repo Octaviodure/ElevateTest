@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Gran Día</title>
+    <meta name="description" content="Cuenta regresiva para El Gran Día - 1 de Septiembre de 2028">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <span class="subtitle">Faltan</span>
+            <h1 class="title">El Gran Día</h1>
+        </header>
+
+        <div class="slideshow">
+            <img src="imagen1.jpg" alt="Imagen 1" class="slide slide-1">
+            <img src="imagen2.jpg" alt="Imagen 2" class="slide slide-2">
+            <img src="imagen3.jpg" alt="Imagen 3" class="slide slide-3">
+        </div>
+        
+        <div class="countdown-wrapper">
+            <div class="time-box">
+                <span class="value" id="months">00</span>
+                <span class="label">Meses</span>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-box">
+                <span class="value" id="days">00</span>
+                <span class="label">Días</span>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-box">
+                <span class="value" id="hours">00</span>
+                <span class="label">Horas</span>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-box">
+                <span class="value" id="minutes">00</span>
+                <span class="label">Minutos</span>
+            </div>
+            <div class="separator">:</div>
+            <div class="time-box">
+                <span class="value" id="seconds">00</span>
+                <span class="label">Segundos</span>
+            </div>
+        </div>
+        
+        <footer class="target-date">
+            1 de Septiembre de 2028
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
