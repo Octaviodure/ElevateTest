@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Fecha objetivo: 1 de Septiembre de 2028 a las 00:00 hrs
-    const targetDate = new Date('2028-09-01T00:00:00');
+    const targetDate = new Date('2028-10-01T00:00:00');
     
     const elements = {
         months: document.getElementById('months'),
